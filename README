@@ -1,0 +1,6 @@
+Database
+
+NAME(PK, first_name, middle_names, last_name)
+NICKNAME(PK, nickname)
+PLEDGECLASS(PK, year, semester)
+BIGBROTHER(PK, big_brother's_PK)
