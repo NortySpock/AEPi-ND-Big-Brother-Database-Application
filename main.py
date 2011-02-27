@@ -26,7 +26,7 @@ class MainWindow(QtGui.QWidget):
     vbox.addLayout(hbox)
         
     self.setLayout(vbox)
-        
+    QtGui.QApplication.setStyle(QtGui.QStyleFactory.create('Cleanlooks'))
     self.setWindowTitle('AEPi ND Big Brother Database')
     self.setGeometry(100, 100, 600, 400) #x offset, y offset, x length, y length
 
