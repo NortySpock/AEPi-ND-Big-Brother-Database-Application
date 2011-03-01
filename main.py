@@ -3,6 +3,15 @@
 import sys
 from PyQt4 import QtGui
 
+class TabHandler(QtGui.QTabWidget):
+  def __init__(self):
+    super(TabHandler, self).__init__()
+    
+    self.initTabs()
+    
+  def initTabs(self):
+    
+
 class MainWindow(QtGui.QWidget):
   
   def __init__(self):
