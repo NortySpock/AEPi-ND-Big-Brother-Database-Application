@@ -4,6 +4,7 @@ import sys
 from PyQt4 import QtGui
 from multiprocessing import Process, Queue
 import os
+import sqlite3
 
 class TabHandler(QtGui.QTabWidget):
   def __init__(self):
