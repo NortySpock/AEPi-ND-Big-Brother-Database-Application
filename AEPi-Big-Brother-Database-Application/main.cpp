@@ -1,4 +1,5 @@
 #include <QtGui/QApplication>
+#include <kseparator.h>
 #include "bb_db_frontend.h"
 
 int main(int argc, char *argv[])
