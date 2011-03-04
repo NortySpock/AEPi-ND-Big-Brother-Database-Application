@@ -65,7 +65,7 @@
     <string>&lt;bigBrotherIDLabel&gt;</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="firstNameLine">
+  <widget class="QLineEdit" name="memberFirstNameLine">
    <property name="geometry">
     <rect>
      <x>9</x>
@@ -75,7 +75,7 @@
     </rect>
    </property>
   </widget>
-  <widget class="QLineEdit" name="middleNamesLine">
+  <widget class="QLineEdit" name="memberMiddleNamesLine">
    <property name="geometry">
     <rect>
      <x>150</x>
@@ -85,7 +85,7 @@
     </rect>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lastNameLine">
+  <widget class="QLineEdit" name="memberLastNameLine">
    <property name="geometry">
     <rect>
      <x>260</x>
@@ -95,7 +95,7 @@
     </rect>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lastNameBBLine">
+  <widget class="QLineEdit" name="bigBrotherlastNameLine">
    <property name="geometry">
     <rect>
      <x>598</x>
@@ -105,7 +105,7 @@
     </rect>
    </property>
   </widget>
-  <widget class="QLineEdit" name="firstNameBBLine">
+  <widget class="QLineEdit" name="bigBrotherfirstNameLine">
    <property name="geometry">
     <rect>
      <x>397</x>
@@ -115,7 +115,7 @@
     </rect>
    </property>
   </widget>
-  <widget class="QLineEdit" name="middleNamesBBLine">
+  <widget class="QLineEdit" name="bigBrotherMiddleNamesLine">
    <property name="geometry">
     <rect>
      <x>527</x>
@@ -302,13 +302,13 @@
     <string>(one per line)</string>
    </property>
   </widget>
-  <widget class="Line" name="line">
+  <widget class="Line" name="dividingLine">
    <property name="geometry">
     <rect>
      <x>370</x>
      <y>0</y>
      <width>16</width>
-     <height>411</height>
+     <height>511</height>
     </rect>
    </property>
    <property name="orientation">
@@ -354,17 +354,56 @@
     <string>First Name</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="memberFindMemberButton">
    <property name="geometry">
     <rect>
-     <x>140</x>
-     <y>460</y>
-     <width>93</width>
+     <x>20</x>
+     <y>470</y>
+     <width>101</width>
      <height>27</height>
     </rect>
    </property>
    <property name="text">
-    <string>PushButton</string>
+    <string>Find Member</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="memberSubmitMemberButton">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>470</y>
+     <width>111</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Submit Member</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bigBrotherFindMemberButton">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>460</y>
+     <width>101</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Find Member</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bigBrotherSubmitMemberButton">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>460</y>
+     <width>111</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Submit Member</string>
    </property>
   </widget>
  </widget>
