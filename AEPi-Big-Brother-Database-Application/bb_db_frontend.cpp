@@ -24,3 +24,8 @@ void bb_db_frontend::changeEvent(QEvent *e)
         break;
     }
 }
+
+void bb_db_frontend::on_pushButton_clicked()
+{
+    //do stuff
+}

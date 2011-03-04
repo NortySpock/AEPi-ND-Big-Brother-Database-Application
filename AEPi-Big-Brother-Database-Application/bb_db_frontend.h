@@ -18,6 +18,9 @@ protected:
 
 private:
     Ui::bb_db_frontend *ui;
+
+private slots:
+    void on_pushButton_clicked();
 };
 
 #endif // BB_DB_FRONTEND_H
