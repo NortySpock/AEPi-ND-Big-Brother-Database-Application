@@ -13,397 +13,433 @@
   <property name="windowTitle">
    <string>bb_db_frontend</string>
   </property>
-  <widget class="QLabel" name="memberLabel">
+  <widget class="QTabWidget" name="tabWidget">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>30</y>
-     <width>56</width>
-     <height>17</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Member</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="bigBrotherLabel">
-   <property name="geometry">
-    <rect>
-     <x>390</x>
-     <y>30</y>
-     <width>75</width>
-     <height>17</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Big Brother</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="IDMemberLabel">
-   <property name="geometry">
-    <rect>
-     <x>80</x>
-     <y>30</y>
-     <width>126</width>
-     <height>17</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>&lt;memberIDLabel&gt;</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="IDBigBrotherLabel">
-   <property name="geometry">
-    <rect>
-     <x>470</x>
-     <y>30</y>
-     <width>139</width>
-     <height>17</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>&lt;bigBrotherIDLabel&gt;</string>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="firstNameMemberLine">
-   <property name="geometry">
-    <rect>
-     <x>9</x>
-     <y>79</y>
-     <width>131</width>
-     <height>27</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="middleNamesMemberLine">
-   <property name="geometry">
-    <rect>
-     <x>150</x>
-     <y>80</y>
-     <width>105</width>
-     <height>27</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lastNameMemberLine">
-   <property name="geometry">
-    <rect>
-     <x>260</x>
-     <y>80</y>
-     <width>105</width>
-     <height>27</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lastNameBigBrotherLine">
-   <property name="geometry">
-    <rect>
-     <x>598</x>
-     <y>79</y>
-     <width>105</width>
-     <height>27</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="firstNameBigBrotherLine">
-   <property name="geometry">
-    <rect>
-     <x>397</x>
-     <y>79</y>
-     <width>124</width>
-     <height>27</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="middleNamesBigBrotherLine">
-   <property name="geometry">
-    <rect>
-     <x>527</x>
-     <y>79</y>
-     <width>65</width>
-     <height>27</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QLabel" name="firstNameMemberLabel">
-   <property name="geometry">
-    <rect>
-     <x>9</x>
-     <y>112</y>
-     <width>72</width>
-     <height>17</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>First Name</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="middleNamesMemberLabel">
-   <property name="geometry">
-    <rect>
-     <x>150</x>
-     <y>110</y>
-     <width>105</width>
-     <height>17</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Middle Name(s)</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="lastNameMemberLabel">
-   <property name="geometry">
-    <rect>
-     <x>270</x>
-     <y>110</y>
-     <width>71</width>
-     <height>17</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Last Name</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="pledgeClassMemberLabel">
-   <property name="geometry">
-    <rect>
-     <x>10</x>
-     <y>160</y>
-     <width>84</width>
-     <height>17</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Pledge Class</string>
-   </property>
-  </widget>
-  <widget class="QComboBox" name="pledgeClassSemesterMemberComboBox">
-   <property name="geometry">
-    <rect>
-     <x>230</x>
-     <y>160</y>
-     <width>89</width>
-     <height>31</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="pledgeClassYearmemberLine">
-   <property name="geometry">
-    <rect>
-     <x>100</x>
-     <y>160</y>
-     <width>120</width>
-     <height>27</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QLabel" name="pledgeClassBigBrotherLabel">
-   <property name="geometry">
-    <rect>
-     <x>400</x>
-     <y>160</y>
-     <width>84</width>
-     <height>17</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Pledge Class</string>
-   </property>
-  </widget>
-  <widget class="QComboBox" name="pledgeClassSemesterBigBrotherComboBox">
-   <property name="geometry">
-    <rect>
-     <x>610</x>
-     <y>150</y>
-     <width>89</width>
-     <height>31</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="pledgeClassYearBigBrotherLine">
-   <property name="geometry">
-    <rect>
-     <x>500</x>
-     <y>150</y>
-     <width>91</width>
-     <height>27</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QPlainTextEdit" name="nicknameMemberPlainTextEdit">
-   <property name="geometry">
-    <rect>
-     <x>103</x>
-     <y>219</y>
-     <width>256</width>
-     <height>192</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QPlainTextEdit" name="nicknameBigBrotherPlainTextEdit">
-   <property name="geometry">
-    <rect>
-     <x>491</x>
-     <y>219</y>
-     <width>212</width>
-     <height>192</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QLabel" name="nicknameMemberLabel">
-   <property name="geometry">
-    <rect>
-     <x>9</x>
-     <y>219</y>
-     <width>74</width>
-     <height>17</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Nicknames</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="nicknameExplanationMemberLabel">
-   <property name="geometry">
-    <rect>
-     <x>9</x>
-     <y>318</y>
-     <width>88</width>
-     <height>17</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>(one per line)</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="nicknameBigBrotherLabel">
-   <property name="geometry">
-    <rect>
-     <x>397</x>
-     <y>219</y>
-     <width>74</width>
-     <height>17</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Nicknames</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="nicknameExplanationBigBrotherLabel">
-   <property name="geometry">
-    <rect>
-     <x>397</x>
-     <y>318</y>
-     <width>88</width>
-     <height>17</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>(one per line)</string>
-   </property>
-  </widget>
-  <widget class="Line" name="dividingLine">
-   <property name="geometry">
-    <rect>
-     <x>370</x>
+     <x>0</x>
      <y>0</y>
-     <width>16</width>
+     <width>721</width>
      <height>511</height>
     </rect>
    </property>
-   <property name="orientation">
-    <enum>Qt::Vertical</enum>
+   <property name="currentIndex">
+    <number>1</number>
    </property>
+   <widget class="QWidget" name="memberDataTab">
+    <attribute name="title">
+     <string>Member Information</string>
+    </attribute>
+    <widget class="QLabel" name="firstNameMemberLabel">
+     <property name="geometry">
+      <rect>
+       <x>9</x>
+       <y>92</y>
+       <width>72</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>First Name</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lastNameMemberLine">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>60</y>
+       <width>105</width>
+       <height>27</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="nicknameBigBrotherLabel">
+     <property name="geometry">
+      <rect>
+       <x>397</x>
+       <y>199</y>
+       <width>74</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Nicknames</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="findMemberMemberButton">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>440</y>
+       <width>101</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Find Member</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="findMemberBigBrotherButton">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>440</y>
+       <width>101</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Find Member</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="firstNameBigBrotherLabel">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>90</y>
+       <width>72</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>First Name</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="pledgeClassYearmemberLine">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>140</y>
+       <width>120</width>
+       <height>27</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="firstNameMemberLine">
+     <property name="geometry">
+      <rect>
+       <x>9</x>
+       <y>59</y>
+       <width>131</width>
+       <height>27</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="IDMemberLabel">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>10</y>
+       <width>126</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;memberIDLabel&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lastNameBigBrotherLabel">
+     <property name="geometry">
+      <rect>
+       <x>620</x>
+       <y>90</y>
+       <width>71</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Last Name</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="memberLabel">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>56</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Member</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="pledgeClassSemesterBigBrotherComboBox">
+     <property name="geometry">
+      <rect>
+       <x>610</x>
+       <y>130</y>
+       <width>89</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="nicknameExplanationBigBrotherLabel">
+     <property name="geometry">
+      <rect>
+       <x>397</x>
+       <y>298</y>
+       <width>88</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>(one per line)</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="middleNamesMemberLabel">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>90</y>
+       <width>105</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Middle Name(s)</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="IDBigBrotherLabel">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>10</y>
+       <width>139</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;bigBrotherIDLabel&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="nicknameMemberLabel">
+     <property name="geometry">
+      <rect>
+       <x>9</x>
+       <y>199</y>
+       <width>74</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Nicknames</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="middleNamesBigBrotherLabel">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>90</y>
+       <width>105</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Middle Name(s)</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="firstNameBigBrotherLine">
+     <property name="geometry">
+      <rect>
+       <x>397</x>
+       <y>59</y>
+       <width>124</width>
+       <height>27</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="pledgeClassMemberLabel">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>140</y>
+       <width>84</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Pledge Class</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="submitMemberMemberButton">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>440</y>
+       <width>111</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Submit Member</string>
+     </property>
+    </widget>
+    <widget class="QPlainTextEdit" name="nicknameMemberPlainTextEdit">
+     <property name="geometry">
+      <rect>
+       <x>103</x>
+       <y>199</y>
+       <width>256</width>
+       <height>192</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="middleNamesMemberLine">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>60</y>
+       <width>105</width>
+       <height>27</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPlainTextEdit" name="nicknameBigBrotherPlainTextEdit">
+     <property name="geometry">
+      <rect>
+       <x>491</x>
+       <y>199</y>
+       <width>212</width>
+       <height>192</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="nicknameExplanationMemberLabel">
+     <property name="geometry">
+      <rect>
+       <x>9</x>
+       <y>298</y>
+       <width>88</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>(one per line)</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lastNameMemberLabel">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>90</y>
+       <width>71</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Last Name</string>
+     </property>
+    </widget>
+    <widget class="Line" name="dividingLine">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>-20</y>
+       <width>16</width>
+       <height>511</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lastNameBigBrotherLine">
+     <property name="geometry">
+      <rect>
+       <x>598</x>
+       <y>59</y>
+       <width>105</width>
+       <height>27</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="bigBrotherLabel">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>10</y>
+       <width>75</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Big Brother</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="middleNamesBigBrotherLine">
+     <property name="geometry">
+      <rect>
+       <x>527</x>
+       <y>59</y>
+       <width>65</width>
+       <height>27</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="pledgeClassYearBigBrotherLine">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>130</y>
+       <width>91</width>
+       <height>27</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="pledgeClassBigBrotherLabel">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>140</y>
+       <width>84</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Pledge Class</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="submitMemberBigBrotherButton">
+     <property name="geometry">
+      <rect>
+       <x>570</x>
+       <y>440</y>
+       <width>111</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Submit Member</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="pledgeClassSemesterMemberComboBox">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>140</y>
+       <width>89</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="databaseManagementTab">
+    <attribute name="title">
+     <string>Initialize Database</string>
+    </attribute>
+   </widget>
   </widget>
-  <widget class="QLabel" name="middleNamesBigBrotherLabel">
+  <widget class="QLabel" name="statusLabel">
    <property name="geometry">
     <rect>
-     <x>500</x>
-     <y>110</y>
-     <width>105</width>
+     <x>10</x>
+     <y>510</y>
+     <width>321</width>
      <height>17</height>
     </rect>
    </property>
    <property name="text">
-    <string>Middle Name(s)</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="lastNameBigBrotherLabel">
-   <property name="geometry">
-    <rect>
-     <x>620</x>
-     <y>110</y>
-     <width>71</width>
-     <height>17</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Last Name</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="firstNameBigBrotherLabel">
-   <property name="geometry">
-    <rect>
-     <x>400</x>
-     <y>110</y>
-     <width>72</width>
-     <height>17</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>First Name</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="findMemberMemberButton">
-   <property name="geometry">
-    <rect>
-     <x>20</x>
-     <y>470</y>
-     <width>101</width>
-     <height>27</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Find Member</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="submitMemberMemberButton">
-   <property name="geometry">
-    <rect>
-     <x>140</x>
-     <y>470</y>
-     <width>111</width>
-     <height>27</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Submit Member</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="findMemberBigBrotherButton">
-   <property name="geometry">
-    <rect>
-     <x>450</x>
-     <y>460</y>
-     <width>101</width>
-     <height>27</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Find Member</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="submitMemberBigBrotherButton">
-   <property name="geometry">
-    <rect>
-     <x>570</x>
-     <y>460</y>
-     <width>111</width>
-     <height>27</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Submit Member</string>
+    <string>TextLabel</string>
    </property>
   </widget>
  </widget>

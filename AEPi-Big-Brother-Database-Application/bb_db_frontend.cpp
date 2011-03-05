@@ -25,7 +25,8 @@ void bb_db_frontend::changeEvent(QEvent *e)
     }
 }
 
-void bb_db_frontend::on_pushButton_clicked()
+
+void bb_db_frontend::on_findMemberMemberButton_clicked()
 {
-    //do stuff
+
 }
