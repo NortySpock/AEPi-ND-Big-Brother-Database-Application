@@ -21,7 +21,7 @@ private:
 
 private slots:
     void on_findMemberMemberButton_clicked();
-    void on_pushButton_clicked();
+    //void on_pushButton_clicked();
 };
 
 #endif // BB_DB_FRONTEND_H

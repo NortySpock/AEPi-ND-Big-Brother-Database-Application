@@ -80,6 +80,10 @@
     <value type="QString">DEFAULTS_PATH=/usr/share/gconf/gnome.default.path</value>
     <value type="QString">DESKTOP_SESSION=gnome</value>
     <value type="QString">DISPLAY=:0.0</value>
+    <value type="QString">DVDCSS_CACHE=/home/norty/.dvdcss/</value>
+    <value type="QString">DVDCSS_METHOD=key</value>
+    <value type="QString">DVDCSS_RAW_DEVICE=/dev/rdvd</value>
+    <value type="QString">DVDCSS_VERBOSE=0</value>
     <value type="QString">GDMSESSION=gnome</value>
     <value type="QString">GDM_KEYBOARD_LAYOUT=us</value>
     <value type="QString">GDM_LANG=en_US.utf8</value>
@@ -89,6 +93,7 @@
     <value type="QString">GTK_MODULES=canberra-gtk-module</value>
     <value type="QString">HOME=/home/norty</value>
     <value type="QString">LANG=en_US.utf8</value>
+    <value type="QString">LANGUAGE=</value>
     <value type="QString">LD_LIBRARY_PATH=/usr/lib/qtcreator</value>
     <value type="QString">LOGNAME=norty</value>
     <value type="QString">MANDATORY_PATH=/usr/share/gconf/gnome.mandatory.path</value>
@@ -129,6 +134,10 @@
     <value type="QString">DEFAULTS_PATH=/usr/share/gconf/gnome.default.path</value>
     <value type="QString">DESKTOP_SESSION=gnome</value>
     <value type="QString">DISPLAY=:0.0</value>
+    <value type="QString">DVDCSS_CACHE=/home/norty/.dvdcss/</value>
+    <value type="QString">DVDCSS_METHOD=key</value>
+    <value type="QString">DVDCSS_RAW_DEVICE=/dev/rdvd</value>
+    <value type="QString">DVDCSS_VERBOSE=0</value>
     <value type="QString">GDMSESSION=gnome</value>
     <value type="QString">GDM_KEYBOARD_LAYOUT=us</value>
     <value type="QString">GDM_LANG=en_US.utf8</value>
@@ -138,6 +147,7 @@
     <value type="QString">GTK_MODULES=canberra-gtk-module</value>
     <value type="QString">HOME=/home/norty</value>
     <value type="QString">LANG=en_US.utf8</value>
+    <value type="QString">LANGUAGE=</value>
     <value type="QString">LD_LIBRARY_PATH=/usr/lib/qtcreator</value>
     <value type="QString">LOGNAME=norty</value>
     <value type="QString">MANDATORY_PATH=/usr/share/gconf/gnome.mandatory.path</value>
