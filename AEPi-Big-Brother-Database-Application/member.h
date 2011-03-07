@@ -26,13 +26,6 @@ class Member
         bool hasPledgeClassSemester;
         bool hasPledgeClassYear;
 
-        /* There are no setters for this class.
-
-           The idea is that the backend inherits
-           this as a friend class and sets everything
-           on the way through.
-         */
-
     private:
         unsigned int m_ID;
         string m_firstName;
