@@ -40,7 +40,7 @@
 #include <string>
 using std::string;
 
-enum Error_Type { UNSPECIFIED };
+enum Error_Type { ID_NOT_FOUND, NAME_NOT_FOUND, DB_ERROR };
 
 class Exception
 {
