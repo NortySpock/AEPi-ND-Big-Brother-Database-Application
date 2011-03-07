@@ -6,7 +6,9 @@ TARGET = AEPi-Big-Brother-Database-Application
 TEMPLATE = app
 SOURCES += main.cpp \
     bb_db_frontend.cpp \
-    member.cpp
+    member.cpp \
+    backend.cpp
 HEADERS += bb_db_frontend.h \
-    member.h
+    member.h \
+    backend.h
 FORMS += bb_db_frontend.ui
