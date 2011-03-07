@@ -67,3 +67,50 @@ int member::BBID()
 {
   return m_BBID;
 }
+
+bool member::hasBigBrother()
+{
+  bool temp;
+  if(m_BBID >= 0)
+  {
+    temp = TRUE;
+  } 
+  else
+  {
+    temp = FALSE;
+  }
+  return temp;
+}
+
+bool member::hasPledgeClassComplete()
+{
+
+}
+
+bool member::hasPledgeClassSemester;
+{
+  bool temp;
+  if(m_PCsemester != Null)
+  {
+    temp = TRUE;
+  }
+  else
+  {
+    temp = FALSE;
+  }
+  return temp;
+}
+
+bool member::hasPledgeClassYear;
+{
+  bool temp;
+  if(m_PCyear >= 0)
+  {
+     temp = TRUE;
+  }
+  else
+  {
+    temp = FALSE;
+  }
+  return temp;  
+}
