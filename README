@@ -1,7 +1,6 @@
 Database
 ==============================================================================
 NAME(PK, first_name, middle_names, last_name)
-NICKNAME(NAME.PK, nickname)
 PLEDGECLASS(NAME.PK, year, semester)
 BIGBROTHER(NAME.PK, big_brother's_PK)
 

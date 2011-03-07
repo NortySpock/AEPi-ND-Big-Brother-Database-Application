@@ -17,7 +17,6 @@ class Member
         string lastName();
         SemesterEnum PCsemester();
         short m_PCyear();
-        vector <string> Nicknames();
         int BBID();
 
         bool hasBigBrother();
@@ -39,7 +38,6 @@ class Member
         string m_lastName;
         SemesterEnum m_PCsemester;
         short m_PCyear; //If negative, indicates no year set
-        vector <string> m_nicknames;
         int m_BBID; //If negative, indicates no Big Brother set
 
 };
