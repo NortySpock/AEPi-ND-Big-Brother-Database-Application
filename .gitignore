@@ -12,6 +12,9 @@ ui_*.h
 Debug/
 Release/
 
+# Generated executables
+AEPi-Big-Brother-Database-Application
+
 # .log files (usually created by QtTest - thanks to VestniK)
 *.log
 
