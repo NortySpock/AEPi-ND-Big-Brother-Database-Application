@@ -8,7 +8,7 @@
 class Member
 {
     public:
-        enum SemesterEnum {NULL, Fall, Spring}; //There are no summer pledges
+        enum SemesterEnum {Null, Fall, Spring}; //There are no summer pledges
 
         //Getters
         unsigned int ID();
