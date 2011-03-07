@@ -7,8 +7,10 @@ TEMPLATE = app
 SOURCES += main.cpp \
     bb_db_frontend.cpp \
     member.cpp \
-    backend.cpp
+    backend.cpp \
+    exception.cpp
 HEADERS += bb_db_frontend.h \
     member.h \
-    backend.h
+    backend.h \
+    exception.h
 FORMS += bb_db_frontend.ui
