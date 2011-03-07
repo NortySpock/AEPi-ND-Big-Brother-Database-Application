@@ -19,6 +19,8 @@ class Member
         short m_PCyear();
         int BBID();
 
+        string PCsemesterToString();
+
         bool hasBigBrother();
         bool hasPledgeClassComplete(); //both must be true
         bool hasPledgeClassSemester;
