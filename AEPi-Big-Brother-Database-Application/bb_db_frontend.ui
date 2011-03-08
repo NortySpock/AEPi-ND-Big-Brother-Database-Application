@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>712</width>
-    <height>533</height>
+    <height>361</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,11 +19,11 @@
      <x>0</x>
      <y>0</y>
      <width>721</width>
-     <height>511</height>
+     <height>331</height>
     </rect>
    </property>
    <property name="currentIndex">
-    <number>0</number>
+    <number>1</number>
    </property>
    <widget class="QWidget" name="memberDataTab">
     <attribute name="title">
@@ -52,24 +52,11 @@
       </rect>
      </property>
     </widget>
-    <widget class="QLabel" name="nicknameBigBrotherLabel">
-     <property name="geometry">
-      <rect>
-       <x>397</x>
-       <y>199</y>
-       <width>74</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Nicknames</string>
-     </property>
-    </widget>
     <widget class="QPushButton" name="findMemberMemberButton">
      <property name="geometry">
       <rect>
-       <x>40</x>
-       <y>440</y>
+       <x>50</x>
+       <y>230</y>
        <width>101</width>
        <height>27</height>
       </rect>
@@ -82,7 +69,7 @@
      <property name="geometry">
       <rect>
        <x>450</x>
-       <y>440</y>
+       <y>230</y>
        <width>101</width>
        <height>27</height>
       </rect>
@@ -173,19 +160,6 @@
       </rect>
      </property>
     </widget>
-    <widget class="QLabel" name="nicknameExplanationBigBrotherLabel">
-     <property name="geometry">
-      <rect>
-       <x>397</x>
-       <y>298</y>
-       <width>88</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>(one per line)</string>
-     </property>
-    </widget>
     <widget class="QLabel" name="middleNamesMemberLabel">
      <property name="geometry">
       <rect>
@@ -210,19 +184,6 @@
      </property>
      <property name="text">
       <string>&lt;bigBrotherIDLabel&gt;</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="nicknameMemberLabel">
-     <property name="geometry">
-      <rect>
-       <x>9</x>
-       <y>199</y>
-       <width>74</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Nicknames</string>
      </property>
     </widget>
     <widget class="QLabel" name="middleNamesBigBrotherLabel">
@@ -264,24 +225,14 @@
     <widget class="QPushButton" name="submitMemberMemberButton">
      <property name="geometry">
       <rect>
-       <x>180</x>
-       <y>440</y>
+       <x>190</x>
+       <y>230</y>
        <width>111</width>
        <height>27</height>
       </rect>
      </property>
      <property name="text">
       <string>Submit Member</string>
-     </property>
-    </widget>
-    <widget class="QPlainTextEdit" name="nicknameMemberPlainTextEdit">
-     <property name="geometry">
-      <rect>
-       <x>103</x>
-       <y>199</y>
-       <width>256</width>
-       <height>192</height>
-      </rect>
      </property>
     </widget>
     <widget class="QLineEdit" name="middleNamesMemberLine">
@@ -292,29 +243,6 @@
        <width>105</width>
        <height>27</height>
       </rect>
-     </property>
-    </widget>
-    <widget class="QPlainTextEdit" name="nicknameBigBrotherPlainTextEdit">
-     <property name="geometry">
-      <rect>
-       <x>491</x>
-       <y>199</y>
-       <width>212</width>
-       <height>192</height>
-      </rect>
-     </property>
-    </widget>
-    <widget class="QLabel" name="nicknameExplanationMemberLabel">
-     <property name="geometry">
-      <rect>
-       <x>9</x>
-       <y>298</y>
-       <width>88</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>(one per line)</string>
      </property>
     </widget>
     <widget class="QLabel" name="lastNameMemberLabel">
@@ -403,7 +331,7 @@
      <property name="geometry">
       <rect>
        <x>570</x>
-       <y>440</y>
+       <y>230</y>
        <width>111</width>
        <height>27</height>
       </rect>
@@ -498,13 +426,13 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>510</y>
+     <y>340</y>
      <width>321</width>
      <height>17</height>
     </rect>
    </property>
    <property name="text">
-    <string>TextLabel</string>
+    <string>Status Bar</string>
    </property>
   </widget>
  </widget>
