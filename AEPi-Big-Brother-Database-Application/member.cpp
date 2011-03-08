@@ -5,7 +5,7 @@ member::member(unsigned int setID, string setFirstName, string setMiddleNames, s
 {
   m_ID = setID;
   m_firstName = setFirstName;
-  m_middleNames = setMiddleName;
+  m_middleNames = setMiddleNames;
   m_lastName = setLastName;
   m_PCsemester = setPCsemester;
   m_PCyear = setPCyear;
@@ -40,21 +40,21 @@ SemesterEnum member::PCsemester()
 string member::PCsemesterToString()
 {
   string temp;
-  
+
   switch m_PCsemester
   {
     case FALL:
       temp = "Fall";
       break;
-    
+
     case SPRING:
       temp = "Spring";
       break;
-    
+
     default:
       temp = "NULL";
   }
-  
+
   return temp;
 }
 
@@ -74,7 +74,7 @@ bool member::hasBigBrother()
   if(m_BBID >= 0)
   {
     temp = TRUE;
-  } 
+  }
   else
   {
     temp = FALSE;
@@ -112,5 +112,5 @@ bool member::hasPledgeClassYear;
   {
     temp = FALSE;
   }
-  return temp;  
+  return temp;
 }
