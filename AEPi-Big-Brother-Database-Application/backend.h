@@ -3,8 +3,16 @@
 
 class backend
 {
-public:
-    backend();
+    public:
+        backend();
+        initDB();
+        createTables();
+        resetDB(); //Drop all tables
+        add(member);
+        update(member);
+        remove(member);
+        findMemberByID(unsigned int);
+        findMemberByName(string, string);
 };
 
 #endif // BACKEND_H
