@@ -1,14 +1,19 @@
 #ifndef MEMBER_H
 #define MEMBER_H
 
+#include <cstdlib>
 #include <string>
-#include <vector>
+using namespace std;
 
 
-class Member
+
+class member
 {
     public:
         enum SemesterEnum {Null, Fall, Spring}; //There are no summer pledges
+
+        //Constructor
+        member(unsigned int, string, string, string, string, string, int);
 
         //Getters
         unsigned int ID();
@@ -16,7 +21,7 @@ class Member
         string middleNames();
         string lastName();
         SemesterEnum PCsemester();
-        short m_PCyear();
+        short PCyear();
         int BBID();
 
         string PCsemesterToString();
