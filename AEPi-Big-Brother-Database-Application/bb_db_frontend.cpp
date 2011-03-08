@@ -68,23 +68,35 @@ void bb_db_frontend::on_confirmDBButton_clicked()
 //User wants to find a member
 void bb_db_frontend::on_findMemberMemberButton_clicked()
 {
-    if()
+    //if IDMemberLabel has text
+    //Parse text to ParsedInt
+    
+    //Try to find member with int
+    //else try to find member with name
+    //else throw dialog box saying we couldn't find member
+    
+    //If successful finding member, try to get big brother using their ID.
 }
 
 //User wants to update a member
 void bb_db_frontend::on_submitMemberMemberButton_clicked()
 {
-
+  //Save member revised using ID
 }
 
 //User wants to find a big brother
 void bb_db_frontend::on_findMemberBigBrotherButton_clicked()
 {
-
+    //if IDMemberLabel has text
+    //Parse text to ParsedInt
+    
+    //Try to find member with int
+    //else try to find member with name
+    //else throw dialog box saying we couldn't find member
 }
 
 //User wants to update a big brother
 void bb_db_frontend::on_submitMemberBigBrotherButton_clicked()
 {
-
+  //Save member revised using ID
 }
