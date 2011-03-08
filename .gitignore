@@ -8,6 +8,9 @@ qrc_*.cpp
 ui_*.h
 *.pro.user*
 
+#Generated makefile
+Makefile
+
 # Debug and Release directories (created under Windows, not Linux)
 Debug/
 Release/
