@@ -1,18 +1,20 @@
 #ifndef BACKEND_H
 #define BACKEND_H
 
+#include <member.h>
+
 class backend
 {
     public:
         backend();
-        initDB();
-        createTables();
-        resetDB(); //Drop all tables
-        add(member);
-        update(member);
-        remove(member);
-        findMemberByID(unsigned int);
-        findMemberByName(string, string);
+        bool initDB();
+        bool createTables();
+        bool resetDB(); //Drop all tables
+        bool add(member);
+        bool update(member);
+        bool remove(member);
+        member findMemberByID(unsigned int);
+        member findMemberByName(string, string);
 };
 
 #endif // BACKEND_H

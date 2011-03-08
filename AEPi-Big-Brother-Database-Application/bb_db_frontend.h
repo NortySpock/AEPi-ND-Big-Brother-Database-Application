@@ -20,6 +20,10 @@ private:
     Ui::bb_db_frontend *ui;
 
 private slots:
+    void on_submitMemberBigBrotherButton_clicked();
+    void on_findMemberBigBrotherButton_clicked();
+    void on_submitMemberMemberButton_clicked();
+    void on_confirmDBButton_clicked();
     void on_findMemberMemberButton_clicked();
     //void on_pushButton_clicked();
 };
